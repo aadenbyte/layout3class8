@@ -30,12 +30,26 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+  height: 100px;
+  background: black;
+  color: white;
 }
 
-footer {
-
+nav * {
+  float: left;
+  width: 10%;
+  color: white;
+  display: block;
 }
+
+nav ul {
+  width: 50%;
+}
+
+nav form input {
+  width: 100%;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
