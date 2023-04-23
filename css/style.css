@@ -65,6 +65,7 @@ main section + section section {
   width: 50%;
   height: 250px;
   float: left;
+  border: 1px solid black;
 }
 
 /******************************************
