@@ -55,6 +55,18 @@ main + section > section {
   float: left;
 }
 
+main > section {
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+
+main section + section section {
+  width: 50%;
+  height: 250px;
+  float: left;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
